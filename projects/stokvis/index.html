@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<style>
+			canvas {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+			}
+			
+			#images {
+				visibility: hidden;
+			}
+		</style>
+
+		<title>versie 5.4</title>
+	</head>
+	<body>
+		<canvas id = "canvas"></canvas>
+		<input type="file" id="file" />
+		
+		<script src = "openingBook.js"></script>
+		<script src = "MoveGen.js"></script>
+		<script src = "evaluation.js"></script>
+		<script src = "Engine.js"></script>
+		<script src = "Pieces.js"></script>
+		<script src = "FenReader.js"></script>
+		<script src = "Board.js"></script>
+		<script src = "render.js"></script>
+		<script src = "loop.js"></script>
+		
+		<div id = "images">
+			<img src = "images/bishopw.png" id = "bishopw">
+			<img src = "images/kingw.png" id = "kingw">
+			<img src = "images/knightw.png" id = "knightw">
+			<img src = "images/pawnw.png" id = "pawnw">
+			<img src = "images/queenw.png" id = "queenw">
+			<img src = "images/rookw.png" id = "rookw">
+			
+			<img src = "images/bishopb.png" id = "bishopb">
+			<img src = "images/kingb.png" id = "kingb">
+			<img src = "images/knightb.png" id = "knightb">
+			<img src = "images/pawnb.png" id = "pawnb">
+			<img src = "images/queenb.png" id = "queenb">
+			<img src = "images/rookb.png" id = "rookb">
+		</div>
+	</body>
+</html>

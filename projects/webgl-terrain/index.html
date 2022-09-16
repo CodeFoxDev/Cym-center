@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            canvas {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+            }
+
+            #textDisplay {
+                position: fixed;
+                top: 10px;
+                left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id = "canvas"></canvas>
+
+        <div id = "textDisplay"></div>
+
+        <!--maths-->
+        <script src = "math/vector.js"></script>
+        <script src = "math/matrix.js"></script>
+
+        <!--physics-->
+        <script src = "physics/rigidbody.js"></script>
+
+        <!--terrain-->
+        <script src = "terrain/valueBox.js"></script>
+        <script src = "terrain/noise.js"></script>
+        <script src = "terrain/chunkManager.js"></script>
+        <script src = "terrain/marchingCubes.js"></script>
+
+        <!--rendering-->
+        <script src = "shaders/sceneRenderer.js"></script>
+        <script src = "shaders/lineRenderer.js"></script>
+        <script src = "shaders/terrainLoader.js"></script>
+        <script src = "shaders/deferredShaders.js"></script>
+
+        <script src = "rendering/Mesh.js"></script>
+        <script src = "rendering/shaderProgram.js"></script>
+        <script src = "rendering/render.js"></script>
+        <script src = "rendering/deferredRenderer.js"></script>
+
+        <!--scripts-->
+        <script src = "player.js"></script>
+        <script src = "loop.js"></script>
+    </body>
+</html>
