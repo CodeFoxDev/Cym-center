@@ -38,7 +38,7 @@
   --font-head: "cubano", sans-serif;
   --font-code: monospace;
 
-  --front-gradient: linear-gradient(90deg, var(--purple-light), var(--purple-dark));
+  --front-gradient: linear-gradient(90deg, var(--blue-light), var(--purple-dark));
 
   --main-bg: var(--gray6);
   --text-color: var(--gray2);
@@ -704,7 +704,7 @@ div.side {
 .grid-manual {
   --grid-layout-gap: 1rem;
   --grid-column-count: 2;
-  --grid-item--min-width: 500px;
+  --grid-item--min-width: 21rem;
 
   --gap-count: calc(var(--grid-column-count) - 1);
   --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
@@ -780,7 +780,7 @@ div.side {
   background-color: var(--nav-bg);
   padding: .8rem;
   border-radius: 5px;
-  width: 20rem;
+  width: 19rem;
   transition: transform .3s ease;
   z-index: 4;
 }
@@ -805,4 +805,26 @@ div.side {
 
 .projects-item p {
   margin: .5rem 0;
+}
+
+.footer {
+  margin: 1rem;
+}
+
+.footer a {
+  padding-left: .3rem;
+  background-image: var(--front-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer svg {
+  padding-left: .3rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+i.heart::after {
+  content: "U+2600";
 }
