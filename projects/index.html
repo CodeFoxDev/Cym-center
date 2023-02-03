@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYM Center</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <nav>
+    <input type="checkbox" name="nav-switch" id="nav-switch" hidden>
+    <div class="background"></div>
+    <div class="logo">
+      <a href="/" title="Home">
+        <img src="/static/assets/icon.svg" alt="Cym Logo">
+      </a>
+    </div>
+    <div class="links">
+      <a href="/about">Over ons</a>
+      <a href="/projects">Projecten</a>
+      <label for="nav-switch">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+          <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+        </svg>
+      </label>
+    </div>
+    <div class="mobile-menu">
+      <label for="nav-switch">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+          <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+        </svg>
+      </label>
+      <div class="links">
+        <a href="/about">Over ons</a>
+        <a href="/projects">Projecten</a>
+      </div>
+    </div>
+    <label for="nav-switch" class="page-cover"></label>
+  </nav>
+  <main>
+    <section class="front projects">
+      <div class="search-bar">
+        <input type="text" name="project-search" id="project-search" placeholder="Search...">
+        <img src="/static/assets/search.svg" alt="Search icon">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
