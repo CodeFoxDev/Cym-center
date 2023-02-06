@@ -76,7 +76,7 @@ nav>.logo svg {
 
 nav>.links {
   height: 3rem;
-  width: 80%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,6 +164,7 @@ nav>input:checked~.page-cover {
 
 @media (max-width: 600px) {
   nav>.links {
+    width: 80%;
     justify-content: right;
   }
 
